@@ -50,6 +50,6 @@ input.onButtonPressed(Button.B, function () {
         domoonwalkr(300)
     }
 })
-input.onLogoEvent(TouchButtonEvent.Touched, function () {
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     doResetMotor(1000)
 })
